@@ -161,9 +161,9 @@ Callback = <function> - The function of the button.
 
 OrionLib:MakeNotification({
 	Name = "ahoy guy",
-	Content = "this is encore hub v3 because i forgot to save v2. i want to die. ",
+	Content = "this is encore hub v3 because i forgot to save v2. i want to die. anyways, update: added prison life GUI ",
 	Image = "rbxassetid://4483345998",
-	Time = 5
+	Time = 20
 })
 
 --[[
@@ -189,6 +189,21 @@ Tab:AddButton({
 	Name = "Apeirophobia GUI",
 	Callback = function()
 	loadstring(game:HttpGet(('https://raw.githubusercontent.com/E240-h/apgui/main/n'),true))()
+	loadstring(
+)()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+Tab:AddButton({
+	Name = "Prison Life GUI",
+	Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
 	loadstring(
 )()
       		print("button pressed")
